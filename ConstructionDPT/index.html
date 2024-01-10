@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction DPT</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    /* Custom CSS for dark theme */
+    body {
+      background-color: #343a40;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar {
+      background-color: #212529;
+      color: #fff;
+      position: sticky;
+      width: 250px;
+      height: 100vh;
+      top: 0;
+    }
+    .sidebar-heading {
+      padding: 1rem;
+      text-align: center;
+    }
+    .list-group-item {
+      background-color: #343a40;
+      border-color: #343a40;
+    }
+    .list-group-item:hover {
+      background-color: #495057;
+    }
+    .dropdown-menu {
+      background-color: #343a40;
+    }
+    .dropdown-item {
+      color: #fff;
+    }
+    .content {
+      background-color: #f8f9fa;
+      padding: 20px;
+      overflow-y: scroll;
+      width: 82%;
+    }
+    .sidebar-partition {
+        width: 100%;
+        height: 175px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .sidebar-heading-partition {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .line {
+        border-top: 2px solid rgb(255 255 255 / 10%);
+    }
+    .dropdown-item:hover,.dropdown-item:focus {
+        border-radius: 20px;
+    }
+    @media (max-width: 767.98px) {
+        .sidebar {
+            width: 145px;
+        } /* Make the sidebar occupy full width on smaller screens */
+    }
+    .overview-section
+    {
+        width: 100%;
+        height: 82px;
+        border: 1px solid rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .overview-box
+    {
+        width: 180px;
+        height: 100%;
+        border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-dark sidebar" id="sidebar-wrapper">
+            <div class="sidebar-heading">Construction DPT</div>
+            <div class="list-group-item">
+                <p>Anees Ur Rahman Khattak</p>
+                <img src="/images/profile.jpg" alt="User Picture" class="rounded-circle" width="50">
+            </div>
+            <div class="sidebar-partition">
+                <div class="sidebar-heading-partition">
+                    <hr class="line">
+                    <span>Project Info <i class="fa-solid fa-diagram-project fa-lg ml-2" style="color: #c9c9c9;"></i></span>
+                    <hr class="line">
+                    <div style="word-break: break-all;">
+                        <a class="dropdown-item" href="#">View Project</a>
+                        <a class="dropdown-item" href="#">Add Project</a>
+                        <a class="dropdown-item" href="#">Project Bi Weekly Update</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="sidebar-partition">
+                <div class="sidebar-heading-partition">
+                    <hr class="line">
+                    <span>MERIT <i class="fa-solid fa-globe fa-lg ml-2" style="color: #c9c9c9;"></i></span>
+                    <hr class="line">
+                    <div>
+                        <a class="dropdown-item" href="#">View MERIT</a>
+                        <a class="dropdown-item" href="#">Add MERIT</a>
+                        <a class="dropdown-item" href="#">MERIT Update</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        
+        <div class="content" >
+            <div class="overview-section">
+                <div class="overview-box">
+
+                </div>
+                <div class="overview-box">
+
+                </div>
+                <div class="overview-box">
+
+                </div>
+                <div class="overview-box">
+
+                </div>
+                <div class="overview-box">
+
+                </div>
+                <div class="overview-box">
+
+                </div>
+                <div class="overview-box">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b2c993da99.js" crossorigin="anonymous"></script>  
+</body>
+</html>
